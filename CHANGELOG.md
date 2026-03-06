@@ -1,22 +1,22 @@
-# Changelog
+# 更新紀錄
 
 ## v0.9.0-alpha.1 — Alpha
 
-First alpha release of ScriptMate.
+ScriptMate 首次 Alpha 發佈。
 
-### Features
+### 功能
 
-- **Three-panel architecture** — Chat, Code, and Output panels working together
-- **Three conversation modes** with `Shift+Tab` switching:
-  - Chat mode: Q&A about Glyphs API, no code execution
-  - Console mode: One-shot script generation with auto-execution
-  - Window mode: GUI tool builder with Vanilla UI
-- **BYOK (Bring Your Own Key)** — Works with any OpenAI-compatible AI service
-- **Glyphs API live search** — AI queries Python API docs and mekkablue script library
-- **mekkablue scripts search and read tools** — Browse and reference community scripts
-- **Script import/export** — Save scripts to Glyphs Script menu or load existing `.py` files
-- **Tiered prompt system** — Optimized prompts for local models
-- **Auto-fix with toggle** — Controllable automatic error correction in Console mode
-- **Provider grouping** — Organized model selection with provider sections
-- **Localization** — English, Traditional Chinese, Simplified Chinese
-- **Plugin name localization** — Dynamic menu name based on system language
+- **三面板架構** — Chat（對話）、Code（即時編輯）、Output（執行結果）各司其職
+- **三種對話模式**，用 `Shift+Tab` 快速切換：
+  - 對話模式：Glyphs API 問答，不執行程式碼
+  - 主控台模式：一次性腳本生成，自動執行
+  - 視窗模式：GUI 工具建造者，產出 Vanilla UI 互動視窗
+- **BYOK（自帶 API Key）** — 支援任何 OpenAI 相容的 AI 服務
+- **Glyphs API 即時搜尋** — AI 自動查詢 Python API 文件和 mekkablue 腳本庫
+- **mekkablue 腳本搜尋與閱讀** — 瀏覽和參考社群腳本
+- **腳本匯入/匯出** — 儲存腳本到 Glyphs Script 選單或載入現有 `.py` 檔案
+- **分層提示系統** — 針對本地模型最佳化
+- **自動修正（可切換）** — 主控台模式中可控的自動錯誤修正
+- **供應商分組** — 模型選擇器依供應商分類
+- **本地化** — 英文、繁體中文、簡體中文
+- **外掛名稱本地化** — 選單名稱隨系統語言動態切換
