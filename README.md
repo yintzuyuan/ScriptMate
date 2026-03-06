@@ -48,7 +48,7 @@ ScriptMate 使用 **BYOK**（Bring Your Own Key）模式——你的對話內容
 1. 開啟 ScriptMate → 點擊工具列 ⚙️ 設定按鈕
 2. 切換到「AI 服務」分頁
 3. 點擊「+」新增服務，填入：
-   - **類型**：選擇 `Ollama`
+   - **類型**：選擇 `OpenAI 相容端點`
    - **端點**：輸入 `https://ollama.com/v1`
    - **API Key**：貼上你的 key（必填）
 4. 點擊「擷取模型」載入可用模型列表
