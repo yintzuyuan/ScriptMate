@@ -106,12 +106,14 @@ ScriptMate 使用 **BYOK**（Bring Your Own Key）模式——你的對話內容
 >
 ### 使用付費商業模型
 
-ScriptMate 支援任何 OpenAI 相容的 API，包括付費的商業模型服務：
+ScriptMate 內建支援多家 AI 服務商，也支援任何 OpenAI 相容的 API：
 
-- **OpenAI**（GPT-4o 等）、**DeepSeek**、**Mistral** — 直接填入官方 API 端點和 key
-- **OpenRouter** — 單一帳號存取多家模型，包括 Anthropic Claude、Google Gemini 等非 OpenAI 相容的模型
+- **Anthropic**（Claude）、**Google Gemini** — 內建支援，選擇對應類型即可直接使用
+- **OpenAI**（GPT-4o 等）、**Grok** — 內建支援
+- **DeepSeek**、**Mistral** 等 — 選擇「OpenAI 相容端點」，填入官方 API 端點和 key
+- **OpenRouter** — 單一帳號存取多家模型
 
-設定方式與上方相同：在「AI 服務」中新增服務，填入對應的端點和 API key 即可。付費模型通常在複雜任務和長對話中表現更穩定。
+設定方式與上方相同：在「AI 服務」中新增服務，選擇對應類型，填入 API key 即可。付費模型通常在複雜任務和長對話中表現更穩定。
 
 ## 使用情境
 
