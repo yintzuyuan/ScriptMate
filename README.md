@@ -7,6 +7,8 @@ Glyphs 3 的 AI 腳本助手外掛
 
 > ⚠️ Alpha 內測版 — 歡迎回饋，功能和介面可能隨時變更
 
+![ScriptMate 主畫面](screenshot.png)
+
 ## 功能特色
 
 - **三面板架構** — Chat（對話）、Code（即時編輯）、Output（執行結果）各司其職
