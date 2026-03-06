@@ -53,9 +53,8 @@ ScriptMate 使用 **BYOK**（Bring Your Own Key）模式——你的對話內容
    - **類型**：選擇 `OpenAI 相容端點`
    - **端點**：輸入 `https://ollama.com/v1`
    - **API Key**：貼上你的 key（必填）
-4. 點擊「擷取模型」載入可用模型列表
-5. 選擇模型（推薦 `devstral-small-2:24b`）
-6. 點擊「測試連線」確認成功 → 儲存
+4. 點擊「測試連線」確認成功 → 儲存
+5. 在 Chat 輸入框的模型選擇器中選擇模型（推薦 `devstral-small-2:24b`）
 
 <details>
 <summary>替代方案：本地 Ollama（離線使用）</summary>
@@ -64,12 +63,14 @@ ScriptMate 使用 **BYOK**（Bring Your Own Key）模式——你的對話內容
 
 1. 安裝 [Ollama](https://ollama.com/download)
 2. 在終端機下載模型：`ollama pull devstral-small-2:24b`
-3. 在 ScriptMate 設定中：
+3. 在 ScriptMate 設定中新增 Ollama 服務：
+   - **類型**：選擇 `Ollama`
    - **端點**：保持預設 `http://localhost:11434/v1`
    - **API Key**：留空
-4. 點擊「擷取模型」→ 選擇模型 → 儲存
+4. 點擊「測試連線」確認成功 → 儲存
+5. 在 Chat 輸入框的模型選擇器中選擇模型
 
-> 💡 本地執行需要足夠記憶體：24B 模型約需 16 GB RAM，更大模型需更多。
+> 💡 本地執行需要足夠記憶體：24B 模型檔案約 15 GB，建議至少 32 GB RAM。
 
 </details>
 
