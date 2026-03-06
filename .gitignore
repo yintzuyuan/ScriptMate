@@ -1,0 +1,29 @@
+# Safety Net — 閉源分發模式
+# 排除所有原始碼，只保留編譯好的 bundle 和文件
+
+# Source code (never publish)
+*.m
+*.h
+*.swift
+*.py
+*.pch
+*.xcodeproj/
+*.xcworkspace/
+*.pbxproj
+*.storyboard
+*.xib
+
+# Build artifacts
+*.dSYM
+*.o
+*.d
+DerivedData/
+build/
+
+# Development files
+.claude/
+CLAUDE.md
+*.zip
+
+# OS files
+.DS_Store
